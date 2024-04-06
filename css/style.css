@@ -244,3 +244,68 @@ width: 100%;
     top: 20%;    
     border-radius: 10px ;
 }
+
+ /* -------------------------- media query -------------------------- */
+ @media only screen and (max-width: 1500px) {
+    .container .links ul li{
+        margin-left: 10px;
+        width: 100%;
+    }
+    .container .links ul li .one::before{
+        opacity: 0;
+    }
+    .header{
+        display: block;
+    }
+    .header .caption p{
+        padding-left: 50px;
+    }
+    .header .caption h1{
+        padding-left: 50px;
+    }
+    .header .caption .button{
+        padding-left: 50px;
+    }
+    .header .image{
+        width: 100%;
+    }
+    .header .image img{
+padding-left: 50px;
+    }
+    .about {
+        display: block;
+      }
+      .about .two{
+          width: 100%;
+      }
+      .about .three{
+          width: 100%;
+          margin-left: 0;
+          margin-top: 10px;
+      }
+      .about .two .image img{
+          width: 80%;
+      }
+      .about .three .image img{
+        width: 80%;
+    }
+      .about .two .caption p::before{
+        opacity: 0;
+    }
+      .about .three .caption p::before{
+        opacity: 0;
+    }
+    .last .images{
+        display: block;
+    }
+    .images .one img{
+        padding-left: 200%;
+    }
+    .last .caption h1::before{
+        opacity: 0;
+    }
+    .images .one .sale::after{
+        opacity: 0;
+    }
+ }
+    
